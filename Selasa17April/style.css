@@ -1,0 +1,36 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: url('bg1.jpg');
+}
+#container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#loading-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bar {
+    width: 1200px;
+    height: 50px;
+    border: 3px black solid;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#loading-isi {
+    background-color: pink;
+    height: 100%;
+    width: 0%;
+}
+.start {
+    background-color: magenta;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
